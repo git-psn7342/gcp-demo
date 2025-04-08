@@ -21,7 +21,7 @@ jobs:
     - name: Set up Google Cloud SDK
       uses: google-github-actions/setup-gcloud@v1
       with:
-        project_id: gcp-de2-453610
+        project_id: project-2-453917
 
     - name: Deploy to App Engine
       run: gcloud app deploy --quiet
